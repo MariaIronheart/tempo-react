@@ -18,17 +18,17 @@ const TodayWeatherAirConditions = ({ data }) => {
           type="temperature"
         />
         <AirConditionsItem
-          title="Wind"
+          title="Vento"
           value={`${data.wind.speed} m/s`}
           type="wind"
         />
         <AirConditionsItem
-          title="Clouds"
+          title="Nuvens"
           value={`${Math.round(data.clouds.all)} %`}
           type="clouds"
         />
         <AirConditionsItem
-          title="Humidity"
+          title="Humidade"
           value={`${Math.round(data.main.humidity)} %`}
           type="humidity"
         />

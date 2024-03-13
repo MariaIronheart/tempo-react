@@ -116,7 +116,7 @@ function App() {
       <ErrorBox
         margin="3rem auto"
         flex="inherit"
-        errorMessage="Something went wrong"
+        errorMessage="Algo deu errado"
       />
     );
   }
